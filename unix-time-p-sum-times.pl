@@ -1,3 +1,4 @@
+#!/usr/bin/env perl
 # /usr/bin/time -p output format, numbers are seconds:
 # real 4.99
 # user 4.56

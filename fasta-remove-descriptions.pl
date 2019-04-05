@@ -1,3 +1,4 @@
+#!/usr/bin/env perl
 while($line = <>) { 
   chomp $line;
   if($line =~ /^>(\S+)/) { 

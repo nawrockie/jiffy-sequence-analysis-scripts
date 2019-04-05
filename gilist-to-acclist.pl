@@ -1,3 +1,4 @@
+#!/usr/bin/env perl
 # gi|1002359362|gb|KU721767.1| --> KU721767.1
 while($line = <>) { 
   chomp $line;

@@ -22,6 +22,9 @@ while(my $line = <>) {
     elsif($name =~ /^gb\|(\S+)\.(\d+)\|$/) { 
       $name = ($do_noversion) ? $1 : $1 . "." . $2;
     }
+    elsif($name =~ /^tpg\|(\S+)\.(\d+)\|$/) { 
+      $name = ($do_noversion) ? $1 : $1 . "." . $2;
+    }
     printf ">%s%s\n", $name, $desc;
   }
   else { 
